@@ -1,0 +1,51 @@
+.svgicon {
+  fill: white;
+  width: 33px;
+
+}
+
+.inputsearch {
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 42px;
+    margin-left: 1350px;
+    margin-right: 40px;
+    margin-bottom: 110px;
+    padding-left: 25px;
+    font-size: 20px;
+    width: 300px;
+    background-color:  #41494e;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+  }
+  
+.buttonicon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute; /* Posicionamiento absoluto */
+  right: 145px; /* Ajusta la distancia desde el borde derecho del input */
+  top: 47px;
+}
+
+
+  
+.butForm {
+  position: absolute;
+  top: 108px;
+  right: 210px;
+  height: 70px;
+  font-family: bira;
+  font-size: 37px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 0%;
+  padding-bottom: 52px;
+  cursor: pointer;
+}
+
+.butForm:hover {
+  transform: scale(1.2); /* Escalar el botón al 110% de su tamaño original */
+  transition: transform 0.3s ease; /* Transición suave con duración de 0.3 segundos */
+}

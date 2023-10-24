@@ -1,0 +1,35 @@
+.contHome {
+    padding: 0;
+    margin: 0;
+    background-image: url('../../Image/fondohome11.jpg');
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    /* height: 100%;  */
+    width: 100%;
+    
+}
+
+.imgCarga {
+    width: 100%;
+    height: 1000px;
+    position: flex;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    background-color: transparent;
+
+}
+
+.imageCarga {
+    height: 600px;
+    position: absolute;
+    left: 650px;
+    top: 150px;
+}

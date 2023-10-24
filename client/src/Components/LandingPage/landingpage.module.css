@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Bira';
+  src: url(../../Fonts/Bira_PERSONAL.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+
+
+.landingLogo {
+  
+  height: 460px;
+  position: absolute;
+  top: -39px;
+  right: 738px;
+  
+  
+}
+
+
+.welcomeimagen {
+  padding: 0;
+  margin: 0;
+  background-image: url('../../Image/wp2276074.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.welcome {
+  font-family: 'Bira';
+  font-weight: bold;
+  font-size: 63px;
+  text-shadow: 6px 5px 0px rgba(105, 101, 101, 0.5);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  position: absolute;
+  right: 860px;
+  top: 270px;
+  color:#fff;
+}
+
+.botonstart {
+    height: 150px !important;
+    animation: fadeIn 3s ease-in-out forwards;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 46px;
+    right: 742px;
+  }
+
+  /* Define la animación de desvanecimiento */
+   @keyframes fadeIn {
+    0% {
+      opacity: 0; 
+    }
+    50% {
+        opacity: 0; 
+      }
+    100% {
+      opacity: 1; 
+    }
+  } 
+
+  .botonstart:hover {
+    transform: scale(1.2); /* Escalar el botón al 110% de su tamaño original */
+    transition: transform 0.3s ease; /* Transición suave con duración de 0.3 segundos */
+  }

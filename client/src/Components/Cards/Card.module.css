@@ -1,0 +1,49 @@
+.Card {
+  background-color: #141212;
+  border: none;
+  width: 320px; /* Ancho específico para cada carta */
+  height: 400px;
+  margin-top: 36px;
+  margin-bottom: 1px;
+  margin-right: 15px; /* Espacio entre las cartas */
+  border-radius: 14px;
+  display: inline-block; /* Mostrar las cartas en línea */
+  vertical-align: top;
+  position: relative;
+  color: white;
+}
+
+.imageCard {
+    background-color: #141212;
+    object-fit: cover;
+    width: 90%;
+    margin-bottom: -20px;
+    height: 300px;
+    padding-top: 12px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.imageCard:hover {
+  filter: blur(3px); /* Puedes ajustar la cantidad de desenfoque según tus preferencias */
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nameOverlay {
+  font-size: 1em px;
+  margin: 0px;
+  padding-top: 5px;
+  position: absolute;
+  bottom: 94px;
+  right: 24px;
+  background-color: #4941e6e5;
+  border-radius: 19px;
+  width: 190px; /* Ancho específico para cada carta */
+  height: 30px;
+  white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+  overflow: hidden; /* Ocultar texto que desborde */
+  text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) si el texto es demasiado largo */
+}

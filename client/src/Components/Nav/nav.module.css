@@ -1,0 +1,77 @@
+.zgames {
+    height: 300px;
+    position: absolute;
+    left: 130px;
+    top: -26px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.ordenAlfab select:first-child {    
+    
+    height: 42px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 22px;
+    position: absolute;
+    left: 820px;
+    top: 48px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.ordenRating select:first-child {
+
+    height: 42px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    right: 580px;
+    top: 48px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.filterGenres select:first-child {
+
+    height: 42px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 21px;
+    position: absolute;
+    left: 550px;
+    top: 48px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.filterOrigen select:first-child {
+
+    height: 42px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 21px;
+    position: absolute;
+    left: 850px;
+    top: 105px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+select option {
+    background-color: black; 
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
